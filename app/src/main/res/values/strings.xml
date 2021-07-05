@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hemengo Distrib</string>
+    <string name="label_distributor">Merci de scanner le distributeur</string>
+    <string name="cta_order">Je commande</string>
+    <string name="cta_scan">Je scan</string>
+    <string name="splash_logo_description">Hemengo Distrib Logo</string>
+</resources>

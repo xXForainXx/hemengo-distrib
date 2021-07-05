@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_lighter">#95DC9E</color>
+    <color name="orange_carrot">#f6914d</color>
+    <color name="brown_ground">#d29e7c</color>
+    <color name="red_wine">#963a3a</color>
+    <color name="yellow_honey">#ffd11b</color>
+    <color name="grey_deeper">#393333</color>
+    <color name="grey_lighter">#7e807b</color>
+    <color name="grey">#756969</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
