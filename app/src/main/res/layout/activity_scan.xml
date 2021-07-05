@@ -9,6 +9,20 @@
     tools:context=".ScanActivity"
     tools:ignore="HardcodedText">
 
+    <TextView
+        android:id="@+id/textViewScanTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/label_distributor"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/scanBtn"
         android:layout_width="250dp"
@@ -32,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/scanIcon" />
 
     <TextView
         android:id="@+id/textViewDistributorLat"
@@ -45,20 +59,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewDistributorId" />
-
-    <TextView
-        android:id="@+id/textViewLabel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="@string/label_distributor"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewDistributorLng"
@@ -85,14 +85,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDistributorLng" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/scanIcon"
         android:layout_width="128dp"
         android:layout_height="130dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScanTitle"
         app:srcCompat="@mipmap/ic_scan"
         android:contentDescription="Icon QR Code" />
 

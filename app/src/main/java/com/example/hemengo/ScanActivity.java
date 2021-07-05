@@ -35,7 +35,7 @@ public class ScanActivity extends AppCompatActivity implements View.OnClickListe
         // Referencing and initializing the button, and the text views (for content and format)
         scanBtn = findViewById(R.id.scanBtn);
 
-        textViewLabel = findViewById(R.id.textViewLabel);
+        textViewLabel = findViewById(R.id.textViewScanTitle);
         textViewDistributorId = findViewById(R.id.textViewDistributorId);
         textViewDistributorLat = findViewById(R.id.textViewDistributorLat);
         textViewDistributorLng = findViewById(R.id.textViewDistributorLng);
@@ -44,6 +44,7 @@ public class ScanActivity extends AppCompatActivity implements View.OnClickListe
         // Adding listener to the scan button
         scanBtn.setOnClickListener(this);
 
+        // For testing purposes only -- distributors will come from db ofc
         this.distributor = new Distributor(10, 43.46196412157843, -1.5377605279714546);
         try {
             this.distributor.setQrCodeData();
